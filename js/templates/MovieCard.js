@@ -7,7 +7,7 @@ class MovieCard {
         const $wrapper = document.createElement('div')
         $wrapper.classList.add('movie-card-wrapper')
 
-        const movieCard = `
+        const movieCard = /*html*/`
             <div class="movie-thumbnail center">
                 <img
                     alt="${this._movie.title}"
